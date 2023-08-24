@@ -1,0 +1,45 @@
+// Day container Styling
+.day-container {
+    height: 130px;
+    width: 150px;
+    background-color: #f7f7f9;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    &:hover {
+        box-shadow: rgba(109, 255, 255, 0.5) 0px 10px 20px 0px, rgba(109, 255, 255, 0.5) 0px 6px 6px 0px;
+    }
+    p {
+        margin: 0%;
+    }
+
+    // Circle icons styling 
+    .circle-icon {
+        font-size: 24px;
+        margin: 15px 11px;
+        cursor: pointer;
+    }
+    // For active circle
+    .active {
+        color: #16ea59;
+    }
+    // for notactive circle
+    .notactive {
+        color: #ea161a;
+    }
+    // for none circle
+    .none {
+        color: #0b5ed7;
+    }
+
+    // img size of delete and calender
+    .habit-right img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}
